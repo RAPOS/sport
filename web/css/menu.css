@@ -1,0 +1,45 @@
+#main-menu {
+    margin-bottom: 0;
+}
+#main-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+    /*margin-bottom: 50px;*/
+}
+#main-menu.navbar-default {
+    font-size: 17px;
+    background-color: #3c8dbc;
+    border-radius: 0;
+    border: 0;
+}
+#main-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: #3c8dbc;
+}
+#main-menu.navbar-default .navbar-nav>li>a:hover,
+#main-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #f3f3f3;
+    background-color: #3c8dbc;
+}
+#main-menu.navbar-default .navbar-nav>.active>a,
+#main-menu.navbar-default .navbar-nav>.active>a:hover,
+#main-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: #f3f3f3;
+    background-color: #3c8dbc;
+}
+#main-menu.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+#main-menu.navbar-default .navbar-toggle:hover,
+#main-menu.navbar-default .navbar-toggle:focus {
+    background-color: #3c8dbc;
+}
+#main-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#main-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#main-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+.logo {
+    margin-top: 10px;
+}

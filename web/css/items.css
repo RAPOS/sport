@@ -1,0 +1,33 @@
+.item-card {
+    border: 1px solid #cccccc;
+    transition-duration: 0.2s;
+    margin: 10px;
+}
+.item-card:hover {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.item-card-image {
+    width: 100%;
+}
+.item-card-header {
+    display: block;
+    height: 70px !important;
+    padding: 5px !important;
+}
+.item-card-period {
+
+}
+.item-card-company {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.item-card-button {
+    margin-bottom: 15px;
+}
+.item-card-action-image {
+    position: absolute;
+    top: -35px;
+    left: -22px;
+    z-index: 99999999999999;
+}
+

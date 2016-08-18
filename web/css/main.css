@@ -1,0 +1,134 @@
+/* pnpNT CSS file */
+/*.modal-body {
+    max-height:400px;
+    overflow:auto;
+}*/
+.box {
+    background-color: #fdfdfd;
+}
+.messages-menu .caret {
+    display: none;
+}
+.notifications-menu .caret {
+    display: none;
+}
+.main-header .navbar {
+    margin-left: 0 !important;
+}
+.modal-header {
+    border-bottom-color: #3c8dbc !important;
+}
+.head-index {
+    background: url("../img/background.jpg") no-repeat center top;
+    background-size: cover;
+    color: #ffffff;
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    /*padding: 0 0 60px;*/
+}
+.file-preview-frame {
+    width: 100px !important;
+}
+.breadcrumb {
+    margin-bottom: 0;
+}
+.border-top-form {
+    border-top: 1px solid #cccccc;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+@media (max-width: 767px) {
+    /*.dropdown-header {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: rgba(195, 212, 227, 1);
+    }*/
+}
+#map-canvas {
+    width: 100%;
+    height: 300px;
+}
+#map-canvas-modal {
+    width: 100%;
+    height: 300px;
+}
+.badge-primary {
+    background-color: #02ace5;
+}
+/*.footer {
+    display: block !important;
+    background-color: #02ace5;
+    color: #ffffff;
+    margin-top: 70px !important;
+    height: 80px;
+}
+.footer .container {
+    background-color: #02ace5;
+    padding-bottom: 20px;
+}
+@media (min-width: 920px) {
+    .float-ld-md-right {
+        float: right;
+    }
+    .footer-contact-align {
+        float: right;
+    }
+    .footer-contact-align-text {
+        float: left;
+        padding-right: 10px;
+    }
+    .footer-contact-align-contacts {
+        float: left;
+    }
+    .footer-link-align {
+        display: block;
+        padding-top: 10px !important;
+    }
+}
+.footer-link {
+    color: #ffffff !important;
+}*/
+.main-footer {
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    color: #444;
+    border-top: 1px solid #d2d6de;
+}
+.modal-header {
+    border-bottom: 5px solid #00b7f4;
+}
+.close {
+    outline: none !important;
+}
+.error-block {
+    display: none !important;
+}
+.has-error .error-block {
+    display: block !important;
+    margin-top: 0;
+}
+.success-block {
+    display: none !important;
+}
+.has-success .success-block {
+    display: block !important;
+    margin-top: 0;
+}
+.text-md-6 {
+    font-size: 21px;
+    text-align: justify;
+}
+@media (max-width: 1100px) and (min-width: 920px) {
+    .text-md-6 {
+        font-size: 17px;
+        text-align: justify;
+    }
+}
